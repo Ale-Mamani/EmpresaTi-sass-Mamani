@@ -1,0 +1,33 @@
+.claseParrafoQuienesSomos p {
+    margin-top: 2.1rem;
+    margin-bottom: 2.1rem;
+    background-color: rgba(0, 10, 145, 0.774);
+    font-size: large;
+}
+
+.quienesSomos {
+    align-items: center;
+    display: flex;
+}
+
+.aQuienesSomos {
+    padding-left: -30px;
+}
+
+.quienesSomos img {
+    margin-left: 1rem;
+    width: 800px;
+    height: 500px;
+}
+
+.QuienesSomosParrafo {
+    padding: 50px;
+    color: white;
+    text-decoration: solid;
+    text-align: center;
+    font-size: larger;
+}
+
+.main {
+    background-image: url(../../imagenes/fondoAzul.jpg)
+}

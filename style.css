@@ -1,0 +1,120 @@
+/* servicios */
+
+
+/* footer */
+
+.btn {
+    margin-left: 7rem;
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+}
+
+p {
+    font-style: inherit;
+    color: white;
+}
+
+.tituloPagina {
+    text-align: center;
+    color: white;
+}
+
+.main {
+    background-image: url(./imagenes/fondoAzul.jpg)
+}
+
+
+/* index */
+
+.divBotonCarrusel {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    background-color: rgba(24, 30, 114, 0.774);
+}
+
+.mainIndex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionPrincipal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.parrafoIndex {
+    padding: 50px;
+    color: white;
+    text-decoration: solid;
+    text-align: center;
+}
+
+
+/* quienes somos */
+
+
+/* servicios */
+
+td,
+label,
+input {
+    color: #ccc;
+}
+
+@media screen and (max-width: 481px) {
+    .textoCarruselIndex {
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width:1348px) {
+    .mainIndex {
+        width: 100%;
+        flex-direction: column;
+    }
+    .imgIndex {
+        width: 100%;
+    }
+    .parrafoIndex {
+        display: flex;
+        width: auto;
+        text-align: center;
+        justify-content: end;
+    }
+    .quienesSomos {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .galeria {
+        width: 100%;
+    }
+    .parrafo {
+        width: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    @media screen and (max-width:891px) {
+        .barraRedes {
+            flex-direction: column;
+            display: flex;
+            width: 100%;
+        }
+        .h4Footer {
+            width: 30%;
+            text-align: center;
+        }
+        .barraRedes li {
+            flex-direction: column;
+            width: auto;
+            align-items: center;
+            margin-right: 3rem;
+        }
+    }
+}

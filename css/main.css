@@ -1,0 +1,157 @@
+h5 {
+  color: tituloH5; }
+
+.carousel-caption h5 {
+  color: white;
+  background-color: rgba(9, 10, 14, 0.5); }
+
+.carousel-caption a {
+  color: black; }
+
+.slide {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem; }
+
+.slide img {
+  width: 800px;
+  height: 600px; }
+
+.btn {
+  margin: margin-right 7rem;
+  margin-left: 7rem;
+  margin-bottom: 1rem;
+  margin-top: 0.2rem; }
+
+.main {
+  background-image: url(../../imagenes/fondoAzul.jpg); }
+
+.mainEquipamiento a {
+  color: #ccc; }
+
+.claseParrafoQuienesSomos p {
+  margin-top: 2.1rem;
+  margin-bottom: 2.1rem;
+  background-color: rgba(0, 10, 145, 0.774);
+  font-size: large; }
+
+.quienesSomos {
+  align-items: center;
+  display: flex; }
+
+.aQuienesSomos {
+  padding-left: -30px; }
+
+.quienesSomos img {
+  margin-left: 1rem;
+  width: 800px;
+  height: 500px; }
+
+.QuienesSomosParrafo {
+  padding: 50px;
+  color: white;
+  text-decoration: solid;
+  text-align: center;
+  font-size: larger; }
+
+.main {
+  background-image: url(../../imagenes/fondoAzul.jpg); }
+
+.mainServicios p {
+  color: black;
+  font-size: larger; }
+
+.mainServicios img {
+  width: 300px;
+  height: 200px;
+  margin: 0; }
+
+.mainServicios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url(./imagenes/fondoAzul.jpg); }
+
+.card-body p {
+  background-color: rgba(230, 231, 240, 0.774); }
+
+.h5 {
+  color: tituloH5; }
+
+.card-body btn {
+  margin-left: 7rem;
+  margin-bottom: 1rem;
+  margin-top: 0.2rem; }
+
+.card {
+  margin: 4rem; }
+
+.btn {
+  margin-left: 7rem;
+  margin-bottom: 1rem;
+  margin-top: 0.2rem; }
+
+.main {
+  background-image: url(../../imagenes/fondoAzul.jpg); }
+
+.imagen-Nombre {
+  display: flex;
+  align-items: center; }
+
+.imagen-Nombre h3 {
+  font-size: large;
+  margin-top: 0.8rem;
+  margin-left: 0.5rem; }
+
+.cabeceraLogo {
+  margin-left: 0.5rem;
+  height: 7rem; }
+
+.navbar-nav {
+  margin-left: 10rem; }
+
+.navbar-nav li {
+  margin-right: 2rem;
+  margin-left: 2rem; }
+
+.mapaSection {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+
+.mapa {
+  width: 1000px;
+  height: 300px; }
+
+.barraRedes {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  background-image: url(./imagenes/fondo-menu2.jpg);
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.barraRedes h4 {
+  color: white; }
+
+.barraRedes a {
+  display: block;
+  align-items: center; }
+
+.logoRedes {
+  width: 100px;
+  margin-top: 1rem;
+  margin-left: 5rem; }
+
+.barraRedes btn {
+  margin-left: 5rem; }
+
+.btn {
+  margin: margin-right 7rem;
+  margin-left: 7rem;
+  margin-bottom: 1rem;
+  margin-top: 0.2rem; }

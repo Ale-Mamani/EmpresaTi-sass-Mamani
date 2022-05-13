@@ -1,0 +1,48 @@
+.mapaSection {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.mapa {
+    width: 1000px;
+    height: 300px;
+}
+
+.barraRedes {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    background-image: url(./imagenes/fondo-menu2.jpg);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.barraRedes h4 {
+    color: white;
+}
+
+.barraRedes a {
+    display: block;
+    align-items: center;
+}
+
+.logoRedes {
+    width: 100px;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+.barraRedes btn {
+    margin-left: 5rem;
+}
+
+.btn {
+    margin: $boton;
+    margin-left: 7rem;
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+}

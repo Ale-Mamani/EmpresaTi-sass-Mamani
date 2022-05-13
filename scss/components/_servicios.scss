@@ -1,0 +1,46 @@
+.mainServicios p {
+    color: black;
+    font-size: larger;
+}
+
+.mainServicios img {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+}
+
+.mainServicios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(./imagenes/fondoAzul.jpg);
+}
+
+.card-body p {
+    background-color: rgba(230, 231, 240, 0.774);
+}
+
+.h5 {
+    color: tituloH5;
+}
+
+.card-body btn {
+    margin-left: 7rem;
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+}
+
+.card {
+    margin: 4rem;
+}
+
+.btn {
+    margin-left: 7rem;
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+}
+
+.main {
+    background-image: url(../../imagenes/fondoAzul.jpg)
+}
