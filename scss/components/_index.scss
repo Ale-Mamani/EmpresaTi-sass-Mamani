@@ -7,6 +7,10 @@ h5 {
     background-color: rgba(9, 10, 14, 0.5);
 }
 
+.carousel-caption p {
+    background-color: rgba(9, 10, 14, 0.5);
+}
+
 .carousel-caption a {
     color: black;
 }
@@ -22,13 +26,19 @@ h5 {
     height: 600px;
 }
 
-.btn {
-    margin: $boton;
+.carousel-caption btn {
     margin-left: 7rem;
     margin-bottom: 1rem;
     margin-top: 0.2rem;
 }
 
-.main {
-    background-image: url(../../imagenes/fondoAzul.jpg);
+.divCasoExito img {
+    height: 300px;
+    width: 533px;
+}
+
+.divTituloCasoExito h4 {
+    text-align: center;
+    color: white;
+    margin-top: 0.5rem;
 }

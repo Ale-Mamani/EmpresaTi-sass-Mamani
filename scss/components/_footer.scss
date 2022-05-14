@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
     list-style: none;
-    background-image: url(./imagenes/fondo-menu2.jpg);
+    background-color: rgb(11, 21, 107);
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -34,15 +34,4 @@
     width: 100px;
     margin-top: 1rem;
     margin-left: 5rem;
-}
-
-.barraRedes btn {
-    margin-left: 5rem;
-}
-
-.btn {
-    margin: $boton;
-    margin-left: 7rem;
-    margin-bottom: 1rem;
-    margin-top: 0.2rem;
 }

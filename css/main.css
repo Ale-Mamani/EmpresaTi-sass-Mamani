@@ -5,6 +5,9 @@ h5 {
   color: white;
   background-color: rgba(9, 10, 14, 0.5); }
 
+.carousel-caption p {
+  background-color: rgba(9, 10, 14, 0.5); }
+
 .carousel-caption a {
   color: black; }
 
@@ -17,16 +20,26 @@ h5 {
   width: 800px;
   height: 600px; }
 
-.btn {
-  margin: margin-right 7rem;
+.carousel-caption btn {
   margin-left: 7rem;
   margin-bottom: 1rem;
   margin-top: 0.2rem; }
 
-.main {
-  background-image: url(../../imagenes/fondoAzul.jpg); }
+.divCasoExito img {
+  height: 300px;
+  width: 533px; }
+
+.divTituloCasoExito h4 {
+  text-align: center;
+  color: white;
+  margin-top: 0.5rem; }
 
 .mainEquipamiento a {
+  color: #ccc; }
+
+td,
+label,
+input {
   color: #ccc; }
 
 .claseParrafoQuienesSomos p {
@@ -54,8 +67,8 @@ h5 {
   text-align: center;
   font-size: larger; }
 
-.main {
-  background-image: url(../../imagenes/fondoAzul.jpg); }
+main {
+  background-color: #0b156b; }
 
 .mainServicios p {
   color: black;
@@ -131,7 +144,7 @@ h5 {
   display: flex;
   align-items: center;
   list-style: none;
-  background-image: url(./imagenes/fondo-menu2.jpg);
+  background-color: #0b156b;
   flex-wrap: wrap;
   justify-content: center; }
 
@@ -146,12 +159,3 @@ h5 {
   width: 100px;
   margin-top: 1rem;
   margin-left: 5rem; }
-
-.barraRedes btn {
-  margin-left: 5rem; }
-
-.btn {
-  margin: margin-right 7rem;
-  margin-left: 7rem;
-  margin-bottom: 1rem;
-  margin-top: 0.2rem; }
