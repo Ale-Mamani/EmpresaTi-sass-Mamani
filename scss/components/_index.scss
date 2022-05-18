@@ -1,44 +1,38 @@
-h5 {
-    color: tituloH5;
-}
-
-.carousel-caption h5 {
-    color: white;
-    background-color: rgba(9, 10, 14, 0.5);
-}
-
-.carousel-caption p {
-    background-color: rgba(9, 10, 14, 0.5);
-}
-
-.carousel-caption a {
-    color: black;
-}
-
-.slide {
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-}
-
-.slide img {
-    width: 800px;
-    height: 600px;
-}
-
-.carousel-caption btn {
-    margin-left: 7rem;
-    margin-bottom: 1rem;
-    margin-top: 0.2rem;
-}
-
-.divCasoExito img {
-    height: 300px;
-    width: 533px;
-}
-
-.divTituloCasoExito h4 {
-    text-align: center;
-    color: white;
-    margin-top: 0.5rem;
-}
+                main {
+                    .carousel {
+                        padding: 1rem;
+                        .carousel-inner {
+                            .carousel-item {
+                                img {
+                                    width: 800px;
+                                    height: 600px;
+                                }
+                                .carouselTextos {
+                                    h5 {
+                                        color: white;
+                                        background-color: rgba(9, 10, 14, 0.5);
+                                    }
+                                    p {
+                                        color: white;
+                                        background-color: rgba(9, 10, 14, 0.5);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .divTituloCasoExito {
+                        h4 {
+                            text-align: center;
+                            color: white;
+                            margin-top: 0.5rem;
+                        }
+                    }
+                    .divCasoExito {
+                        img {
+                            height: 300px;
+                            width: 533px;
+                            margin: auto;
+                            padding: auto;
+                        }
+                    }
+                }

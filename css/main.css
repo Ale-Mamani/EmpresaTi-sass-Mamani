@@ -1,38 +1,28 @@
-h5 {
-  color: tituloH5; }
+main .carousel {
+  padding: 1rem; }
+  main .carousel .carousel-inner .carousel-item img {
+    width: 800px;
+    height: 600px; }
+  main .carousel .carousel-inner .carousel-item .carouselTextos h5 {
+    color: white;
+    background-color: rgba(9, 10, 14, 0.5); }
+  main .carousel .carousel-inner .carousel-item .carouselTextos p {
+    color: white;
+    background-color: rgba(9, 10, 14, 0.5); }
 
-.carousel-caption h5 {
-  color: white;
-  background-color: rgba(9, 10, 14, 0.5); }
-
-.carousel-caption p {
-  background-color: rgba(9, 10, 14, 0.5); }
-
-.carousel-caption a {
-  color: black; }
-
-.slide {
-  margin-top: 0.5rem;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem; }
-
-.slide img {
-  width: 800px;
-  height: 600px; }
-
-.carousel-caption btn {
-  margin-left: 7rem;
-  margin-bottom: 1rem;
-  margin-top: 0.2rem; }
-
-.divCasoExito img {
-  height: 300px;
-  width: 533px; }
-
-.divTituloCasoExito h4 {
+main .divTituloCasoExito h4 {
   text-align: center;
   color: white;
   margin-top: 0.5rem; }
+
+main .divCasoExito img {
+  height: 300px;
+  width: 533px;
+  margin: auto;
+  padding: auto; }
+
+.mainContacto {
+  background-color: #0b156b; }
 
 .mainEquipamiento a {
   color: #ccc; }
@@ -42,13 +32,16 @@ label,
 input {
   color: #ccc; }
 
+.mainEquipamiento {
+  background-color: #0b156b; }
+
 .claseParrafoQuienesSomos p {
   margin-top: 2.1rem;
   margin-bottom: 2.1rem;
   background-color: rgba(0, 10, 145, 0.774);
   font-size: large; }
 
-.quienesSomos {
+.mainQuienesSomos {
   align-items: center;
   display: flex; }
 
@@ -90,7 +83,7 @@ main {
   background-color: rgba(230, 231, 240, 0.774); }
 
 .h5 {
-  color: tituloH5; }
+  color: black; }
 
 .card-body btn {
   margin-left: 7rem;
@@ -100,20 +93,20 @@ main {
 .card {
   margin: 4rem; }
 
-.btn {
+.btnServicio {
   margin-left: 7rem;
   margin-bottom: 1rem;
   margin-top: 0.2rem; }
 
-.main {
-  background-image: url(../../imagenes/fondoAzul.jpg); }
+.mainServicios {
+  background-color: #0b156b; }
 
 .imagen-Nombre {
   display: flex;
   align-items: center; }
 
 .imagen-Nombre h3 {
-  font-size: large;
+  font-size: 1.5rem;
   margin-top: 0.8rem;
   margin-left: 0.5rem; }
 
@@ -121,12 +114,43 @@ main {
   margin-left: 0.5rem;
   height: 7rem; }
 
+.cabeceraLogoMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.divMenuContactos {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.divCabecera {
+  display: flex; }
+
 .navbar-nav {
-  margin-left: 10rem; }
+  margin-left: 5rem; }
 
 .navbar-nav li {
   margin-right: 2rem;
   margin-left: 2rem; }
+
+.indexTelefono {
+  display: flex; }
+
+.indexWhatsapp {
+  display: flex; }
+
+.indexWhatsapp img {
+  margin-right: 0.3rem;
+  margin-bottom: 0.5rem;
+  height: 20px;
+  height: 20px; }
+
+.indexTelefono img {
+  margin-right: 0.3rem;
+  margin-bottom: 0.5rem;
+  height: 20px;
+  height: 20px; }
 
 .mapaSection {
   display: flex;
@@ -159,3 +183,82 @@ main {
   width: 100px;
   margin-top: 1rem;
   margin-left: 5rem; }
+
+.btnFooter {
+  margin-left: 7rem;
+  margin-bottom: 1rem;
+  margin-top: 0.2rem; }
+
+@media screen and (max-width: 891px) {
+  .barraRedes {
+    flex-direction: column;
+    display: flex;
+    width: 100%; }
+  .h4Footer {
+    width: 30%;
+    text-align: center; }
+  .barraRedes li {
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    margin-right: 3rem; } }
+
+@media screen and (max-width: 1348px) {
+  .quienesSomos {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center; }
+  .galeria {
+    width: 100%; } }
+
+@media screen and (max-width: 688px) {
+  main .carousel {
+    padding: 1rem; }
+    main .carousel .carousel-inner .carousel-item img {
+      width: 700px;
+      height: 500px; } }
+
+@media screen and (max-width: 554px) {
+  main .carousel {
+    padding: 1rem; }
+    main .carousel .carousel-inner .carousel-item img {
+      width: 500px;
+      height: 300px; } }
+
+@media screen and (max-width: 978px) {
+  main .divCasoExito img {
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    padding: auto; } }
+
+@media screen and (max-width: 768px) {
+  main .divCasoExito img {
+    height: 350px;
+    width: 620px;
+    margin: auto;
+    padding: auto; } }
+
+@media screen and (max-width: 574px) {
+  main .divCasoExito img {
+    height: 250px;
+    width: 420px;
+    margin: auto;
+    padding: auto; } }
+
+@media screen and (max-width: 440px) {
+  main .divCasoExito img {
+    height: 200px;
+    width: 380px;
+    margin: auto;
+    padding: auto; } }
+
+@media screen and (max-width: 1300px) {
+  .menuCompleto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; } }
+
+/* 1318 */

@@ -1,0 +1,17 @@
+  @media screen and (max-width:891px) {
+      .barraRedes {
+          flex-direction: column;
+          display: flex;
+          width: 100%;
+      }
+      .h4Footer {
+          width: 30%;
+          text-align: center;
+      }
+      .barraRedes li {
+          flex-direction: column;
+          width: auto;
+          align-items: center;
+          margin-right: 3rem;
+      }
+  }

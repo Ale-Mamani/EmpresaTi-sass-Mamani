@@ -22,7 +22,7 @@
 }
 
 .h5 {
-    color: tituloH5;
+    color: black;
 }
 
 .card-body btn {
@@ -35,12 +35,12 @@
     margin: 4rem;
 }
 
-.btn {
+.btnServicio {
     margin-left: 7rem;
     margin-bottom: 1rem;
     margin-top: 0.2rem;
 }
 
-.main {
-    background-image: url(../../imagenes/fondoAzul.jpg)
+.mainServicios {
+    background-color: $colorFondoMain;
 }

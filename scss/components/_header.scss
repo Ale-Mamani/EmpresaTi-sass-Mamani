@@ -4,7 +4,7 @@
 }
 
 .imagen-Nombre h3 {
-    font-size: large;
+    font-size: 1.5rem;
     margin-top: 0.8rem;
     margin-left: 0.5rem;
 }
@@ -14,11 +14,49 @@
     height: 7rem;
 }
 
+.cabeceraLogoMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divMenuContactos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divCabecera {
+    display: flex;
+}
+
 .navbar-nav {
-    margin-left: 10rem;
+    margin-left: 5rem;
 }
 
 .navbar-nav li {
     margin-right: 2rem;
     margin-left: 2rem;
+}
+
+.indexTelefono {
+    display: flex;
+}
+
+.indexWhatsapp {
+    display: flex;
+}
+
+.indexWhatsapp img {
+    margin-right: 0.3rem;
+    margin-bottom: 0.5rem;
+    height: 20px;
+    height: 20px;
+}
+
+.indexTelefono img {
+    margin-right: 0.3rem;
+    margin-bottom: 0.5rem;
+    height: 20px;
+    height: 20px;
 }
